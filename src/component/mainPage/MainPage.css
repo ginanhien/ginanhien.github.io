@@ -24,6 +24,9 @@ section {
   background-image: radial-gradient(#7a9d96, #cae4db);
   /* background: #874c62; */
 }
+#home a {
+  background-color: #fff;
+}
 #academic {
   background: #9d7a81;
 }

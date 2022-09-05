@@ -9,6 +9,7 @@ export default function Navbar({
   sectionAcademicInView,
   sectionPublicationInView,
   sectionExperienceInView,
+  sectionContactInView,
 }) {
   return (
     <div className="navbar-container">
@@ -46,6 +47,13 @@ export default function Navbar({
         className={sectionPublicationInView ? "active" : ""}
       >
         Publication
+      </a>
+      <a
+        href="#contact"
+        id={sectionPublicationInView ? "contact" : ""}
+        className={sectionPublicationInView ? "active" : ""}
+      >
+        Contact
       </a>
     </div>
   );
