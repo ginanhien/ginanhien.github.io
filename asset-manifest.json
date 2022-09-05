@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.ea38fd7e.css",
+    "main.css": "/static/css/main.e168717a.css",
     "main.js": "/static/js/main.a990d1e4.js",
     "static/js/787.bc17c08e.chunk.js": "/static/js/787.bc17c08e.chunk.js",
     "static/media/Ramona-Light.ttf": "/static/media/Ramona-Light.0b8764bdfbcaeb60e04b.ttf",
     "index.html": "/index.html",
-    "main.ea38fd7e.css.map": "/static/css/main.ea38fd7e.css.map",
+    "main.e168717a.css.map": "/static/css/main.e168717a.css.map",
     "main.a990d1e4.js.map": "/static/js/main.a990d1e4.js.map",
     "787.bc17c08e.chunk.js.map": "/static/js/787.bc17c08e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea38fd7e.css",
+    "static/css/main.e168717a.css",
     "static/js/main.a990d1e4.js"
   ]
 }
