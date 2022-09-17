@@ -11,6 +11,8 @@ import Navbar from "../header/NavBar.js";
 import Academic from "../academic/Academic";
 import Headline from "../headline/Headline";
 import Publication from "../publication/Publication";
+import Contact from "../contact/Contact";
+import Footer from "../footer/Footer";
 export default function MainPage() {
   const [sectionHome, sectionHomeInView] = useInView({ threshold: 0.5 });
   const [sectionAbout, sectionAboutInView] = useInView({ threshold: 0.5 });
@@ -23,6 +25,7 @@ export default function MainPage() {
   const [sectionExperience, sectionExperienceInView] = useInView({
     threshold: 0.5,
   });
+  const [sectionContact, sectionContactInView] = useInView({ threshold: 0.5 });
   return (
     <>
       <Navbar
@@ -31,6 +34,7 @@ export default function MainPage() {
         sectionAboutInView={sectionAboutInView}
         sectionAcademicInView={sectionAcademicInView}
         sectionExperienceInView={sectionExperienceInView}
+        sectionContactInView={sectionContactInView}
       />
       <section id="home" ref={sectionHome}>
         <Headline />
@@ -47,6 +51,12 @@ export default function MainPage() {
       </section>
       <section id="publication" ref={sectionPublication}>
         <Publication />
+      </section>
+      <section id="contact" ref={sectionContact}>
+        <Contact />
+      </section>
+      <section id="footer">
+        <Footer />
       </section>
     </>
   );

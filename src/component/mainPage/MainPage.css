@@ -36,6 +36,14 @@ section {
 #publication {
   background: #a7b3a5;
 }
+#contact {
+  background: #939d7a;
+}
+#footer {
+  background-color: #fff;
+  min-height: 0;
+  height: fit-content;
+}
 section .container {
   margin: 100px;
 }

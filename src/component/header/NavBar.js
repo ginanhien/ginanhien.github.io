@@ -50,8 +50,8 @@ export default function Navbar({
       </a>
       <a
         href="#contact"
-        id={sectionPublicationInView ? "contact" : ""}
-        className={sectionPublicationInView ? "active" : ""}
+        id={sectionContactInView ? "contact" : ""}
+        className={sectionContactInView ? "active" : ""}
       >
         Contact
       </a>
