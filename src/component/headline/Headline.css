@@ -21,9 +21,19 @@ fieldset {
   justify-content: space-evenly;
   width: 100%;
   max-width: 1200px;
+  margin-bottom: 3em;
 }
 
 .middle-gif-container {
+  padding-top: 5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  width: 100%;
+  max-width: 1200px;
+}
+.lower-gif-container {
   padding-top: 5em;
   display: flex;
   flex-direction: row;
@@ -52,9 +62,13 @@ fieldset {
   margin-left: 100px;
 }
 
-.gif,
 .cream-gif {
+  margin-left: 150px;
+  max-width: 200px;
+  max-height: 300px;
 }
-.gif,
-.bottom-gif {
+.bottle-gif {
+  margin-right: 150px;
+  max-width: 250px;
+  max-height: 350px;
 }

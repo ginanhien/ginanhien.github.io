@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #42455a;
+  background-image: linear-gradient(#a47da1, #f6b1c3, #f5e2ca, #b0cee3);
 }
 section {
   min-height: 100vh;
@@ -17,27 +17,29 @@ section {
   align-items: center;
 }
 #about {
-  background: #857a9d;
+  /* background: #857a9d; */
 }
 #home {
   /* background-image: linear-gradient(#7a9d96, #cae4db); */
-  background-image: radial-gradient(#7a9d96, #cae4db);
+  /* background-image: radial-gradient(#7a9d96, #cae4db); */
   /* background: #874c62; */
+  /* background-image: url("home-bg.jpg");
+  background-size: contain; */
 }
 #home a {
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 #academic {
-  background: #9d7a81;
+  /* background: #9d7a81; */
 }
 #experience {
-  background: #939d7a;
+  /* background: #939d7a; */
 }
 #publication {
-  background: #a7b3a5;
+  /* background: #a7b3a5; */
 }
 #contact {
-  background: #939d7a;
+  /* background: #939d7a; */
 }
 #footer {
   background-color: #fff;

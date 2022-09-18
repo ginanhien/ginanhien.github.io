@@ -15,7 +15,7 @@ export default function Navbar({
     <div className="navbar-container">
       <a
         href="#home"
-        id={sectionHomeInView ? "home" : ""}
+        // id={sectionHomeInView ? "home" : ""}
         className={sectionHomeInView ? "active" : ""}
       >
         logo
