@@ -11,8 +11,19 @@
   text-align: center;
   text-transform: uppercase;
 }
+.section-about-container .about-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 3em;
+  margin-top: 3em;
+}
 .section-about-container .text-container {
   display: flex;
+  flex-direction: column;
+  max-width: 520px;
+  margin-left: 5em;
 }
 .text-container .text-box {
   margin: 20px;
@@ -24,4 +35,15 @@
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 10px;
+}
+.about-pic {
+  object-position: center;
+  max-width: 520px;
+  display: inline-block;
+  margin-right: 5em;
+}
+.about-pic img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
