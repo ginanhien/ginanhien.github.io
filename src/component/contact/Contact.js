@@ -3,7 +3,7 @@
 import React from "react";
 import "./Contact.css";
 
-export default function Contact({}) {
+export default function Contact() {
   return (
     <div className="section-contact-container">
       <h2>Contact</h2>

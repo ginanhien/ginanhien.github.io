@@ -4,19 +4,57 @@ fieldset {
   width: max-content;
   padding: 20px;
 }
+.headline-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .headline-container h1 {
   font: 3em Ramona;
   padding-inline: 0.5em 0.5em;
 }
-.science-gif img {
-  /* width: 50%;
-  height: 50%; */
+.upper-gif-container {
+  padding-top: 5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  max-width: 1200px;
 }
-.bottle-gif img {
-  /* width: 50%;
-  height: 50%; */
+
+.middle-gif-container {
+  padding-top: 5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  width: 100%;
+  max-width: 1200px;
 }
-.beaker-gif img {
-  /* width: 50%;
-  height: 50%; */
+.gif {
+  object-position: center;
+  max-width: 350px;
+  max-height: 450px;
+  display: inline-block;
+}
+.gif img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.science-gif {
+  transform: rotate(-10deg);
+}
+
+.beaker-gif {
+  margin-left: 100px;
+}
+
+.gif,
+.cream-gif {
+}
+.gif,
+.bottom-gif {
 }
