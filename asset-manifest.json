@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.33240047.css",
-    "main.js": "/static/js/main.31c46d8f.js",
+    "main.css": "/static/css/main.71cd91f5.css",
+    "main.js": "/static/js/main.711e72c8.js",
     "static/js/787.bc17c08e.chunk.js": "/static/js/787.bc17c08e.chunk.js",
+    "static/media/profile.JPG": "/static/media/profile.4c9a60d830ef92b43026.JPG",
     "static/media/science.gif": "/static/media/science.356a72510c061cba81e6.gif",
     "static/media/bottle.gif": "/static/media/bottle.d5d7a555daac807895c4.gif",
     "static/media/Ramona-Light.ttf": "/static/media/Ramona-Light.0b8764bdfbcaeb60e04b.ttf",
@@ -10,12 +11,12 @@
     "static/media/beaker.gif": "/static/media/beaker.6ec85c19f372e3fd52e7.gif",
     "static/media/nail-polish.gif": "/static/media/nail-polish.c3f8deb91c0f9055067f.gif",
     "index.html": "/index.html",
-    "main.33240047.css.map": "/static/css/main.33240047.css.map",
-    "main.31c46d8f.js.map": "/static/js/main.31c46d8f.js.map",
+    "main.71cd91f5.css.map": "/static/css/main.71cd91f5.css.map",
+    "main.711e72c8.js.map": "/static/js/main.711e72c8.js.map",
     "787.bc17c08e.chunk.js.map": "/static/js/787.bc17c08e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.33240047.css",
-    "static/js/main.31c46d8f.js"
+    "static/css/main.71cd91f5.css",
+    "static/js/main.711e72c8.js"
   ]
 }
